@@ -27,9 +27,9 @@ function MyComponent() {
         <div className="flex padding innerWidth delivery-content">
           <div className="del-left">
             <div className="del-text">
-              <h1>
+              <h2>
                 <span>Free delivery</span> every day at your convenience
-              </h1>
+              </h2>
               <p>
                 The Luxury of free daily delivery tailored to your schedule.
                 Enter your details, choose your menu plan and elevate your

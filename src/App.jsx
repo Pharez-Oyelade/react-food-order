@@ -7,6 +7,8 @@ import About from "./Components/About/About";
 import "./App.css";
 import Menu from "./Components/Menu/Menu";
 import Choice from "./Components/Choice/Choice";
+import Newsletter from "./Components/Newsletter/Newsletter";
+import Testimonial from "./Components/Testimonial/Testimonial";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Order />
       <Menu />
       <Choice />
+      <Newsletter />
+      <Testimonial />
     </div>
   );
 }
