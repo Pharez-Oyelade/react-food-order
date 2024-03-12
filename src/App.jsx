@@ -9,6 +9,8 @@ import Menu from "./Components/Menu/Menu";
 import Choice from "./Components/Choice/Choice";
 import Newsletter from "./Components/Newsletter/Newsletter";
 import Testimonial from "./Components/Testimonial/Testimonial";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <Choice />
       <Newsletter />
       <Testimonial />
+      <Contact />
+      <Footer />
     </div>
   );
 }

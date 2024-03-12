@@ -1,0 +1,26 @@
+.contact-wrapper {
+  background-color: var(--primary);
+  padding: 20px;
+}
+
+.contact-bg {
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 20px 0 0 20px;
+}
+
+.contact-left {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 50%;
+}
+
+.left-text p > :nth-child(1) {
+  font-size: 18px;
+}
+
+.contact-left button {
+  width: 50%;
+}
