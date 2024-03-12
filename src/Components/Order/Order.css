@@ -1,0 +1,50 @@
+.order-wrapper {
+  padding: 40px 120px;
+}
+
+.order-wrapper .order-meal {
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.meal-img {
+  width: 50%;
+}
+
+.meal-img img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.meal-img img:hover {
+  transform: scale(1.025);
+}
+
+.meal-des {
+  width: 50%;
+}
+
+.meal-des h4 {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.meal-des p {
+  line-height: 25px;
+}
+
+.nutri-detail {
+  padding: 20px 0;
+}
+
+.nutri-info {
+  padding-bottom: 20px;
+}
+
+.meal-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

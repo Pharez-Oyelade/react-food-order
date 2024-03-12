@@ -1,0 +1,78 @@
+.menu-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-head h4 {
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+  color: var(--green);
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.menu-head h2 {
+  padding-bottom: 10px;
+}
+
+.head-txt {
+  text-align: center;
+  width: 100%;
+}
+
+.head-txt p {
+  margin: auto;
+  width: 90%;
+}
+
+.menu-card {
+  gap: 0.6rem;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: max-content;
+  margin: auto;
+  transition: all 300ms ease-in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-card img {
+  width: 100%;
+  max-width: 15rem;
+}
+
+.menu-txt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.9rem;
+}
+
+.menu-txt > :nth-child(2) {
+  padding-bottom: 20px;
+}
+
+.menu-card:hover {
+  scale: 1.025;
+  cursor: pointer;
+}
+
+.menu-price {
+  color: red;
+  font-weight: 700;
+}
+
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-horizontal {
+  overflow: visible;
+}

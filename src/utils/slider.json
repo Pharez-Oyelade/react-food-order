@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Salad with Mozarella",
+    "price": "8.99",
+    "detail": "Fresh greens adorned with creamy, delectable mozzarella bites",
+    "image": "./food/dish_03-1-1024x1024.jpg"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Red Beetroot Soup",
+    "price": "7.49",
+    "detail": "Vibrant, velvety, and bursting with earthy goodness",
+    "image": "./food/dish_04-1-1024x1024.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Steaks with Asparagus",
+    "price": "10.00",
+    "detail": "Juicy steak paired with crisp, flavorful asparagus spears",
+    "image": "./food/dish_05-1-1024x1024.jpg"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Tender Rabbit Soup",
+    "price": "6.49",
+    "detail": "A comforting bowl with succulent rabbit and hearty broth",
+    "image": "./food/dish_06-1-1024x1024.jpg"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Chicken with Vegetables",
+    "price": "12.99",
+    "detail": "Savory chicken paired with garden-fresh, crisp vegetables",
+    "image": "./food/dish_07-1-1024x1024.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Grilled Chicken Breast",
+    "price": "9.49",
+    "detail": "Juicy perfection, seared and seasoned for exquisite taste",
+    "image": "./food/dish_08-1-1024x1024.jpg"
   }
 ]

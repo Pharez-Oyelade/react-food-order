@@ -1,0 +1,23 @@
+.feature {
+  margin-top: 20px;
+}
+
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-text {
+  padding: 15px;
+  text-align: center;
+}
+
+.feature-text h6 {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.feature-text p {
+  font-size: 15px;
+}

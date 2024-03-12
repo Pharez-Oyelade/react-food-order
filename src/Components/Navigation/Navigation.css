@@ -1,0 +1,36 @@
+.logo {
+  width: 25%;
+  max-width: 100px;
+}
+
+.logo img {
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+}
+
+.nav-links {
+  gap: 50px;
+  /* position: relative; */
+}
+
+.nav-links a {
+  color: #000;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+.nav-links a.active::after,
+.nav-links a:hover::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background: var(--accent);
+  position: absolute;
+  bottom: -4px;
+  left: 10px;
+}

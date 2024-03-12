@@ -1,0 +1,36 @@
+.about-wrapper {
+  padding-bottom: 40px;
+}
+
+.details {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 40px 0;
+  background: var(--primary);
+}
+
+.detail {
+  text-align: center;
+  width: 50%;
+  padding: 0 20px;
+}
+
+.detail img {
+  width: 20%;
+  margin: 10px 0;
+  padding: 10px;
+  background: var(--green);
+  border-radius: 50px;
+}
+
+.detail h6 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.detail p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+}
