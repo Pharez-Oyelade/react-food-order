@@ -2,6 +2,13 @@
   background-color: var(--primary);
 }
 
+.delivery-content {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  gap: 20px;
+}
+
 form {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -13,4 +20,32 @@ form input {
   padding: 20px;
   border-radius: 20px;
   border: none;
+}
+
+button.form-btn {
+  font-size: 1.125rem;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button.form-btn:hover {
+  background-color: var(--green);
+}
+
+button.form-btn:active {
+  transform: scale(0.9);
+}
+
+.del-right {
+  padding: 0;
+}
+
+.del-right img {
+  width: 100%;
 }

@@ -41,8 +41,12 @@ function MyComponent() {
             <div className="del-form">
               <form action="#">
                 <input type="text" placeholder="Your name" required />
-                <input type="email" placeholder="E-mail" />
-                <input type="text" placeholder="Phone number" />
+                <input type="email" placeholder="E-mail" required />
+                <input
+                  type="text"
+                  placeholder="Phone number"
+                  style={{ height: "55px" }}
+                />
                 <Select
                   value={selectedValue} // Set the initially selected value (optional)
                   options={options}
@@ -52,16 +56,20 @@ function MyComponent() {
                     control: (baseStyles, state) => ({
                       ...baseStyles,
                       border: "none",
+                      paddingLeft: "20px",
                       borderRadius: "20px",
-                      padding: "20px",
+                      height: "55px",
                     }),
                   }}
                 />
+                <button className="form-btn">Get Menu</button>
               </form>
             </div>
           </div>
 
-          <div className="del-right"></div>
+          <div className="del-right">
+            <img src="../form-bg.png" alt="" />
+          </div>
         </div>
       </section>
     </div>
