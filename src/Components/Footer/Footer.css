@@ -99,3 +99,38 @@
 .info-detail .info-det h4 {
   padding-bottom: 5px;
 }
+
+/* media  */
+@media (max-width: 477px) {
+  .footer-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .footer-about {
+    width: 100%;
+  }
+
+  .footer-links {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-links .links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .info-detail {
+    flex-direction: column;
+  }
+}

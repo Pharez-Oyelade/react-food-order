@@ -23,7 +23,9 @@
 @media (max-width: 477px) {
   .background {
     height: 100%;
-    padding: 0 40px;
     background-position: 55%;
+    padding: 0 40px;
+    overflow: hidden;
+    background-attachment: initial;
   }
 }

@@ -71,6 +71,7 @@
 @media (max-width: 477px) {
   .description-wrapper {
     align-items: first baseline;
+    overflow-x: hidden;
   }
 
   .des-left img {

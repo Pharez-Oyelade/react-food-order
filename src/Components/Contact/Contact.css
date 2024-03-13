@@ -24,3 +24,27 @@
 .contact-left button {
   width: 50%;
 }
+
+/* media  */
+@media (max-width: 1025px) {
+  .contact-bg {
+    flex-direction: column;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .contact-left {
+    width: 100%;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+
+  .contact-right iframe {
+    width: 100%;
+  }
+
+  .contact-left button {
+    width: 100%;
+  }
+}

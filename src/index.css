@@ -67,3 +67,10 @@ a {
   align-items: center;
   flex-wrap: wrap;
 }
+
+/* media  */
+@media (max-width: 472px) {
+  /* * {
+    overflow-x: hidden;
+  } */
+}

@@ -57,3 +57,15 @@ input.news-input:focus {
 .news-form .news-btn:hover {
   background-color: #222;
 }
+
+/* media  */
+
+@media (max-width: 1025px) {
+}
+
+@media (max-width: 477px) {
+  .newsletter-content .news-form form {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

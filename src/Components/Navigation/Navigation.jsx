@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navigation.css";
+import { BiMenuAltRight } from "react-icons/bi";
+import OutsideClickHandler from "react-outside-click-handler";
 
 const Navigation = () => {
   return (
@@ -19,7 +21,7 @@ const Navigation = () => {
         <a href="">Blog</a>
       </div>
 
-      <div>
+      <div className="nav-button">
         <button className="normal">Get Menu</button>
       </div>
     </section>

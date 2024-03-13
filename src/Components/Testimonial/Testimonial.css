@@ -50,3 +50,12 @@
   font-size: 1.25rem;
   padding-bottom: 40px;
 }
+
+/* media  */
+
+@media (max-width: 477px) {
+  .test-head {
+    padding: 20px;
+    text-align: center;
+  }
+}

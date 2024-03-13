@@ -34,3 +34,21 @@
   bottom: -4px;
   left: 10px;
 }
+
+@media (max-width: 472px) {
+  .logo {
+    display: none;
+  }
+
+  .nav-button {
+    display: none;
+  }
+  .nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
