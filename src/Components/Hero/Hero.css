@@ -30,3 +30,40 @@
   align-items: center;
   gap: 2rem;
 }
+
+/* media  */
+
+@media (max-width: 1025px) {
+  .hero-text {
+    padding-bottom: 200px;
+    align-items: center;
+  }
+
+  .hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* small  */
+
+@media (max-width: 477px) {
+  /* .hero-text {
+    width: 100%;
+  } */
+
+  .hero-text p {
+    width: 150%;
+  }
+
+  /* .hero-button {
+    flex-wrap: wrap;
+    gap: 1rem;
+  } */
+
+  /* .hero-button button {
+
+    padding: 20px;
+  } */
+}

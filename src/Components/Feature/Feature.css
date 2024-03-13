@@ -21,3 +21,19 @@
 .feature-text p {
   font-size: 15px;
 }
+
+/* media  */
+@media (max-width: 1025px) {
+  .feature {
+    flex-direction: column;
+  }
+
+  .feature-box {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .feature-text {
+    text-align: left;
+  }
+}

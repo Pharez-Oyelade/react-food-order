@@ -68,3 +68,24 @@ button.form-btn:active {
 .del-right img {
   width: 100%;
 }
+
+/* MEDIA  */
+@media (max-width: 1025px) {
+  .delivery-content {
+    padding: 40px;
+  }
+
+  .del-right img {
+    width: 110%;
+  }
+}
+
+@media (max-width: 477px) {
+  .delivery-content {
+    flex-direction: column;
+  }
+
+  form {
+    grid-template-columns: 1fr;
+  }
+}

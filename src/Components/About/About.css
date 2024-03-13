@@ -34,3 +34,17 @@
   font-size: 15px;
   line-height: 25px;
 }
+
+/* media  */
+@media (max-width: 477px) {
+  .details {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .detail {
+    width: 100%;
+  }
+}
