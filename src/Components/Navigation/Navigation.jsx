@@ -16,9 +16,15 @@ const Navigation = () => {
         </a>
         <a href="">About</a>
         <a href="">Products</a>
-        <a href="">Features</a>
-        <a href="">Contact</a>
-        <a href="">Blog</a>
+        <a href="" className="hide-nav">
+          Features
+        </a>
+        <a href="" className="hide-nav">
+          Contact
+        </a>
+        <a href="" className="hide-nav">
+          Blog
+        </a>
       </div>
 
       <div className="nav-button">
