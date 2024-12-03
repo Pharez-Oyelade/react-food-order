@@ -9,8 +9,8 @@ const Order = () => {
         <div className="flex first-meal">
           <div className="meal-img">
             <img
-              src="../public/food/Noodle_Soup-removebg-preview.png"
-              alt="ceasar salad with bread and bacon"
+              src="../food/Noodle_Soup-removebg-preview.png"
+              alt="Noodle Soup"
             />
           </div>
 
@@ -104,7 +104,7 @@ const Order = () => {
 
           <div className="meal-img">
             <img
-              src="../public/food/greek-cheese.png"
+              src="../food/greek-cheese.png"
               alt="ceasar salad with bread and bacon"
               style={{ width: "100%", height: "100%" }}
             />

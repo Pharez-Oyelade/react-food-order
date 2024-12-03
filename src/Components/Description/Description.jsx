@@ -5,7 +5,7 @@ const Description = () => {
   return (
     <section className="innerWidth padding flex description-wrapper">
       <div className="des-left">
-        <img src="../public/img2.jpg" alt="" />
+        <img src="../img2.jpg" alt="" />
       </div>
 
       <div className="des-right">
