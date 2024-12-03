@@ -11,6 +11,7 @@
 /* media  */
 @media (max-width: 1025px) {
   .background {
+    background: url(../bg1-small.jpg);
     height: 70vh;
     padding: 0 80px;
     background-position: top 30%;
